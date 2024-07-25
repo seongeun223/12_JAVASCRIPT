@@ -1,3 +1,5 @@
+// 명시적 타입 형변환
+
 // 1. Boolean 생성자 함수를 new 연산자 없이 호출하는 방법
 console.log(Boolean('JavaScript')); // true
 console.log(new Boolean('JavaScript')); // [Boolean: true]
@@ -14,5 +16,13 @@ console.log(Boolean([]));                   // true
 console.log("======== 부정 논리 연산자 두 번 사용 ========");
 
 // 2. ! 부정 논리 연산자를 두 번 사용하는 방법
-console.log(!!'Javascript');
-
+console.log(!!'Javascript'); // true
+console.log(!!'');                          // false
+console.log(!!1);                           // true
+console.log(!!0);                           // false
+console.log(!!NaN);                         // false
+console.log(!!Infinity);                    // true
+console.log(!!null);                        // false
+console.log(!!undefined);                   // false
+console.log(!!{});                          // true
+console.log(!![]);                          // true

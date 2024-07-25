@@ -3,3 +3,9 @@
 
 obj[key] = 'value';
 console.log(obj[key]);
+
+/* 
+객체 타입
+자바스크립트의 데이터 타입은 원시타입(number, string, boolean, undefined, null, symbol)
+이 이외의 모든 값은 객체 타입 (객체, 함수, 배열...)
+*/

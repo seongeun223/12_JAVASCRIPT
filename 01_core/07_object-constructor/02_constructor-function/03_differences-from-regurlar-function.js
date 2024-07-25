@@ -42,6 +42,7 @@ function Dog(name, age) {
     this.age = age;
 }
 
+// new 연산자 없이 생성자 함수로 잘 동작한다.
 const dog = Dog('구찌', 14);
 console.log(dog);
 

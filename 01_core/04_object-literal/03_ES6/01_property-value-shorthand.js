@@ -10,6 +10,9 @@ var product = {
 
 console.log(product);
 
+// ES6 프로퍼티 값으로 변수를 사용하는 경우
+// 변수 이름과 프로퍼티 키가 동일한 이름일 때, 프로퍼티 키를 생략할 수 있다.
+// -> 프로퍼티 키는 변수 이름으로 자동 생성된다.
 var product2 = {id, price};
 console.log(product2);
 

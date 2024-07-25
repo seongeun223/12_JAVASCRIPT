@@ -19,6 +19,9 @@ if(0) console.log("if(0)");
 if(NaN) console.log("if(NaN)");
 if('') console.log("if('')");
 
+// false, undefined, null, 0, NaN, ''(빈 문자열) => Falsy 값
+// 이외 모든 값은 Truthy 값이다.
+
 
 
 

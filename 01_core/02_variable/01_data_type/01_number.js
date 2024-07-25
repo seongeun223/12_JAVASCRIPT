@@ -26,9 +26,9 @@ Infinity : 양의 무한대
 NaN (not-a-number) : 산술 연산 불가
 */
 
-console.log(10 / 0);
-console.log(10 / -0);
-console.log(1 * '문자열');
+console.log(10 / 0); // infinity
+console.log(10 / -0); // -infinity
+console.log(1 * '문자열'); // NaN
 
 
 

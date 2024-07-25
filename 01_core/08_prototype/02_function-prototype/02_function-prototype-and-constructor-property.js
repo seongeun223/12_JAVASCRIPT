@@ -13,6 +13,9 @@ console.log(Student.prototype.constructor === Student); // true
 
 let student = new Student(); // {constructor : Student} 상속받음
 
-console.log(student.constructor === Student);
+
+// true 라고 나온다는 건 [[Prototype]]을 거쳐서 접근함을 의미하고
+// Student를 상속받는다는 것을 확인할 수 있다.
+console.log(student.constructor === Student); // true
 
 

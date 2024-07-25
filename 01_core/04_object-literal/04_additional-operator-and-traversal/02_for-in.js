@@ -8,6 +8,7 @@ var student = {
     }
 };
 
+// 객체의 모든 키를 순회한다. (프로퍼티 개수만큼 반복한다.)
 for (var key in student) {
     console.log(`key : ${key}`);
     console.log(`student[key] : ${student[key]}`);

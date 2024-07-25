@@ -23,7 +23,12 @@ console.log(+undefined); // NaN
 console.log(+{}); // NaN
 console.log(+[]); // 0
 console.log(+function(){}); // NaN
-console.log(+Symbol()); // 
+// console.log(+Symbol()); // Cannot convert a Symbol value to a number
+
+/* 
+빈 문자열, 빈 배열, null, false는 0으로 true는 1로
+객체, undefined, 함수, 문자(숫자형문자제외)는 변환되지 않아 NaN
+*/
 
 
 

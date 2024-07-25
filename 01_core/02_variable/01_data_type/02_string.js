@@ -26,7 +26,7 @@ var str = '안녕하세요. \n반갑습니다';
 console.log(str);
 
 var multiline = `안녕하세요.
-반갑습니다`
+반갑습니다.`
 console.log(multiline);
 
 var lastName = '홍';
@@ -34,7 +34,7 @@ var firstName = '길동';
 
 console.log('제 이름은 ' + lastName + firstName + '입니다.');
 
-// 표현식 삽입
+// 표현식 삽입 -> 무조건 백틱 내에서 사용해야 한다.
 console.log(`제 이름은 ${lastName}${firstName}입니다.`);
 
 
