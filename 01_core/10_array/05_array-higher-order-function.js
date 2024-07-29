@@ -153,8 +153,6 @@ console.log('============= filter, find 비교 ==============');
 result = students.find(item => item.score >= 60);
 console.log(result);
 result = students.filter(item => item.score >= 80);
-console.log(result);
-
 
 
 

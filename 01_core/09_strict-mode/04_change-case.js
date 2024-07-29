@@ -11,5 +11,7 @@
         
     }
 
-    test();
+    test(); // undefined
+
+    new test(); // test {}
 }());
