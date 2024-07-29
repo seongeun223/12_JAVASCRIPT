@@ -47,7 +47,7 @@
         const $container = document.createElement('div');
 
         // DocumentFragment 별도의 서브 DOM
-        const $frament = document.createDocumentFragment();
+        const $fragment = document.createDocumentFragment();
 
         ['된장찌개', '고등어구이', '순대국'].forEach(text => {
             
@@ -62,7 +62,7 @@
             // $container.append($li);
 
             // DocumentFagment 노드에 li를 추가
-            $frament.appendChild($li);
+            $fragment.appendChild($li);
 
         })
 
@@ -71,7 +71,7 @@
         // DocumentFragment 노드를 DOM에 추가하면 자신은 제거되고 자식 노드들만 추가
         // 리플로우랑 리페인트도 한 번만 실행
 
-        $food.appendChild($frament);
+        $food.appendChild($fragment);
     </script>
 </body>
 </html>
